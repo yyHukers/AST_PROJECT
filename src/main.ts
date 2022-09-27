@@ -1,4 +1,4 @@
-import acorn from "acorn";
+import * as acorn from "acorn";
 
 const code = `const a = 1;`;
 const ast = acorn.parse(code, {
