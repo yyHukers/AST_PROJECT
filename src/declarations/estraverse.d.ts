@@ -1,5 +1,5 @@
-declare module 'estraverse' {
-  import estraverse from 'estraverse';
+// declare module 'estraverse' {
+//   import estraverse from 'estraverse';
 
-  export = estraverse;
-}
+//   export = estraverse;
+// }

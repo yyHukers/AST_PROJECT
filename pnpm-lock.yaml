@@ -1,6 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/acorn': ^6.0.0
+  '@types/escodegen': ^0.0.7
+  '@types/estraverse': ^5.1.2
+  '@types/estree': ^1.0.0
   '@types/node': ^18.7.21
   '@types/rollup-plugin-json': ^3.0.3
   acorn: ^8.8.0
@@ -10,6 +14,10 @@ specifiers:
   vitest: ^0.23.4
 
 dependencies:
+  '@types/acorn': 6.0.0
+  '@types/escodegen': 0.0.7
+  '@types/estraverse': 5.1.2
+  '@types/estree': 1.0.0
   '@types/node': 18.7.21
   escodegen: 2.0.0
   estraverse: 5.3.0
@@ -38,6 +46,13 @@ packages:
     requiresBuild: true
     optional: true
 
+  /@types/acorn/6.0.0:
+    resolution: {integrity: sha512-8tSIZoick397hAZIZkiq6R09qNgLjx0CBvmxix3gWyCi6UvXNFjN56xh4e1wTwyYlnTEy32tgo9cooxt6J4lhA==}
+    deprecated: This is a stub types definition. acorn provides its own type definitions, so you do not need this installed.
+    dependencies:
+      acorn: 8.8.0
+    dev: false
+
   /@types/chai-subset/1.3.3:
     resolution: {integrity: sha512-frBecisrNGz+F4T6bcc+NLeolfiojh5FxW2klu669+8BARtyQv2C/GkNW6FUodVe4BroGMP/wER/YDGc7rEllw==}
     dependencies:
@@ -48,9 +63,23 @@ packages:
     resolution: {integrity: sha512-hC7OMnszpxhZPduX+m+nrx+uFoLkWOMiR4oa/AZF3MuSETYTZmFfJAHqZEM8MVlvfG7BEUcgvtwoCTxBp6hm3g==}
     dev: true
 
+  /@types/escodegen/0.0.7:
+    resolution: {integrity: sha512-46oENdSRNEJXCNrPJoC3vRolZJpfeEm7yvATkd2bCncKFG0PUEyfBCaoacfpcXH4Y5RRuqdVj3J7TI+wwn2SbQ==}
+    dev: false
+
+  /@types/estraverse/5.1.2:
+    resolution: {integrity: sha512-3Rndn7sxqRc57WCN+LEaTmwgHAxrGUylgUk5zZsKzqioCbXpk7nSBxDWjPLoE96ZeykGFORMJ45V7N1TFaPg6A==}
+    dependencies:
+      '@types/estree': 1.0.0
+    dev: false
+
   /@types/estree/0.0.39:
     resolution: {integrity: sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==}
     dev: true
+
+  /@types/estree/1.0.0:
+    resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
+    dev: false
 
   /@types/node/18.7.21:
     resolution: {integrity: sha512-rLFzK5bhM0YPyCoTC8bolBjMk7bwnZ8qeZUBslBfjZQou2ssJdWslx9CZ8DGM+Dx7QXQiiTVZ/6QO6kwtHkZCA==}
@@ -66,7 +95,6 @@ packages:
     resolution: {integrity: sha512-QOxyigPVrpZ2GXT+PFyZTl6TtOFc5egxHIP9IlQ+RbupQuX4RkT/Bee4/kQuC02Xkzg84JcT7oLYtDIQxp+v7w==}
     engines: {node: '>=0.4.0'}
     hasBin: true
-    dev: true
 
   /assertion-error/1.1.0:
     resolution: {integrity: sha512-jgsaNduz+ndvGyFt3uSuWqvy4lCnIJiovtouQN5JZHOKCS2QuhEdbcQHFhVksz2N2U9hXJo8odG7ETyWlEeuDw==}
